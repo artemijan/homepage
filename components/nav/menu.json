@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "title": "Home",
+      "href": "/",
+      "isExternal": false,
+      "showLogoGit": false,
+      "mobileOnly": true
+    },
+    {
+      "title": "Tech Skills",
+      "href": "/skills",
+      "isExternal": false,
+      "showLogoGit": false
+    },
+    {
+      "title": "Posts",
+      "href": "/posts",
+      "isExternal": false,
+      "showLogoGit": false
+    },
+    {
+      "title": "Source",
+      "href": "https://github.com/craftzdog/craftzdog-homepage",
+      "isExternal": true,
+      "showLogoGit": true
+    }
+  ]
+}
