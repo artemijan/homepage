@@ -1,5 +1,5 @@
 import { Container, Badge, List, ListItem } from '@chakra-ui/react'
-import { Title, SkillImage, Meta } from '../../components/skills'
+import { Title, Meta } from '../../components/skills'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -59,9 +59,6 @@ const Skill = () => (
           </span>
         </ListItem>
       </List>
-
-      {/*<SkillImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />*/}
-      {/*<SkillImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />*/}
     </Container>
   </Layout>
 )
