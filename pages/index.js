@@ -27,9 +27,23 @@ const Home = () => (
         </Heading>
         <Paragraph>
           I&apos;m software engineer and full-stack developer based in Ukraine.
-          I really like to solve technical problems and learn something new.
-          Software isn&apos;t magic, each behaviour or misbehaviour is designed
-          by the engineer, intentionally or not!
+          I really like to solve technical problems and learn something new, 
+          that's why software isn&apos;t magic for me. I was working with many 
+          frameworks and different languages (java, js, python, shell, fish).
+        </Paragraph>
+        <Paragraph>
+          I was working for web development for 8 years. My very first experience 
+          was with Java Spring (3.5) + SOAP. Some time later I started to learn javascript,
+          especially angular 1 and I was working on a few projects written in angular 1.
+          Few years later I've started developing in python. My first project was about
+          writing BE for FSFE (Free software foundation Europe) ldap + openid connect. 
+          And last few year untill now I'm working with large django projects only.
+        </Paragraph>
+        <Paragraph>
+          I used to work with high-level requirements and transform those into exact tasks
+          needs to be done to achieve business goal. That&apos;s why I always pay attention
+          to details on each level of CI/CD process (requirements clarification, scoping, 
+          estimating, implementing, testing, deploying to production).
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/skills">
@@ -67,7 +81,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019 to present</BioYear>
-          Work as a software engineer at DataArt
+          Work as a lead BE software engineer at DataArt
         </BioSection>
       </Section>
 

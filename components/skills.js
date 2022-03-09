@@ -21,8 +21,8 @@ export const SkillImage = ({ src, alt }) => (
   <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />
 )
 
-export const Meta = ({ children }) => (
-  <Badge colorScheme="green" mr={2}>
+export const Meta = ({ children, ...props }) => (
+  <Badge colorScheme="green" {...props}>
     {children}
   </Badge>
 )

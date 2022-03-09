@@ -2,6 +2,7 @@ import { Container, Badge, List, ListItem } from '@chakra-ui/react'
 import { Title, Meta } from '../../components/skills'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import Paragraph from '../../components/paragraph'
 
 const Skill = () => (
   <Layout title="AWS">
@@ -9,56 +10,55 @@ const Skill = () => (
       <Title>
         DevOps <Badge>AWS/Teamcity/Terraform</Badge>
       </Title>
-      <P>
-        I have deep knowledge in web development, so I do know how communication
-        between browser and Web Application happens. Experience of configuring
-        balancers, cloudfront, ecs (aws specific) services, network routing,
-        helped me to look at web development from other than coding side. Most
-        of my experience is related to <b>AWS</b>, but I&apos;m pretty fast at
-        learning and really like to get familiar with new technologies. You can
-        take a look at my DevOps skills in details below (the list is not full,
-        only most important).
-      </P>
-      <List ml={4} my={4}>
+      <Paragraph>
+        I&apos;m pretty sure each software engineer should have at least basic
+        knowledge of what is IaC and how it can be used to simplify maintaning
+        infrastructure for large projects. Since 2019 I was working on a project
+        which was running on 57 machines on AWS. I was involved not only in development
+        but maintaining infrastructure as well.
+      </Paragraph>
+      <Paragraph>
+        I was supporting existing terraform code written by other developer, so I do not
+        have an experience to write it from scratch. Nevertheless, it's not an issue for
+        me to write terraform module to deploy some microservice or component on AWS.
+      </Paragraph>
+      <Paragraph>
+        Here is a list of services I was working with on AWS (it&apos;s not full):
+      </Paragraph>
+      <List ml={8} my={2}>
         <ListItem>
-          <Meta>AWS</Meta>
+          <Meta>Cognito</Meta>
           <span>
-            I have experience with managing an infrastructure in aws via
-            terraform and terragrunt. I was managing the following services in
-            terraform: cognito, ecs services, elastic search (open search),
-            balancer, security groups, kms, rds (databases), provisioning
-            (terraform provisioning modules) database users.
+            We were using Cognito AWS managed service to restrict an access to our
+            tests environments (as a side effect test environments were restricted
+            for search engines bots like google).
           </span>
         </ListItem>
         <ListItem>
-          <Meta>Operating systems</Meta>
+          <Meta>OpenSearch</Meta>
           <span>
-            I&apos;m mostly working with UNIX-like operating systems Linux/Mac OS.
-            But also I have an experience with Windows (writing desktop
-            application on Delphi). I have rich experience with writing shell
-            scripts in bash/fish.
+            We were using AWS OpenSearch to store catalogue (products), also another
+            instances of openseach were used for storing logs for a graylog
           </span>
         </ListItem>
         <ListItem>
-          <Meta>Teamcity</Meta>
-          <span>NodeJS, Electron, React Native</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Grafana</Meta>
-          <span>NodeJS, Electron, React Native</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Graylog</Meta>
-          <span>NodeJS, Electron, React Native</span>
-        </ListItem>
-        <ListItem>
-          <Meta>K8s (kubernetes)</Meta>
+          <Meta>ECS</Meta>
           <span>
-            I don&apos;t have an experience with this technology, but it&apos;s not an
-            issue for me to learn it.
+            Our applications were deployed as ECS services and were running in
+            docker containers
           </span>
+        </ListItem>
+        <ListItem>
+          <Meta>Route 53, VPC, ALB</Meta>
+          <span>Traffic routing/redirecting, subdomain managing, network security</span>
         </ListItem>
       </List>
+      <Paragraph>
+        Apart from terraform/terragrunt, I was setting up build/deployment configuration
+        on <Meta d='inline'>Teamcity</Meta> from scratch. So writing shell scripts is a daily routing for me 😀.
+        Configuring <Meta d='inline'>Grafana</Meta> dahbaords and <Meta d='inline'>Graylog</Meta>
+        streams/alerts is not an issue at all as well.
+      </Paragraph>
     </Container>
   </Layout>
 )

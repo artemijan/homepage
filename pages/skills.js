@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { SkillGridItem } from '../components/grid-item'
 
 import devOps from '../public/images/skills/devops.jpeg'
+import dev from '../public/images/skills/softdev.jpeg';
 
 const Skills = () => (
   <Layout title="My Tech Skills">
@@ -15,6 +16,11 @@ const Skills = () => (
         <Section>
           <SkillGridItem id="devops" title="DevOps" thumbnail={devOps}>
             AWS, Teamcity, Terraform
+          </SkillGridItem>
+        </Section>
+        <Section>
+          <SkillGridItem id="dev" title="Development" thumbnail={dev}>
+            JS, Python, Shell/Fish
           </SkillGridItem>
         </Section>
       </SimpleGrid>
