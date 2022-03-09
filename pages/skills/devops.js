@@ -1,6 +1,5 @@
 import { Container, Badge, List, ListItem } from '@chakra-ui/react'
 import { Title, Meta } from '../../components/skills'
-import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
 
@@ -19,7 +18,7 @@ const Skill = () => (
       </Paragraph>
       <Paragraph>
         I was supporting existing terraform code written by other developer, so I do not
-        have an experience to write it from scratch. Nevertheless, it's not an issue for
+        have an experience to write it from scratch. Nevertheless, it&apos;s not an issue for
         me to write terraform module to deploy some microservice or component on AWS.
       </Paragraph>
       <Paragraph>

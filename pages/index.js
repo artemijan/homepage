@@ -28,16 +28,16 @@ const Home = () => (
         <Paragraph>
           I&apos;m software engineer and full-stack developer based in Ukraine.
           I really like to solve technical problems and learn something new, 
-          that's why software isn&apos;t magic for me. I was working with many 
+          that&apos;s why software isn&apos;t magic for me. I was working with many 
           frameworks and different languages (java, js, python, shell, fish).
         </Paragraph>
         <Paragraph>
           I was working for web development for 8 years. My very first experience 
           was with Java Spring (3.5) + SOAP. Some time later I started to learn javascript,
           especially angular 1 and I was working on a few projects written in angular 1.
-          Few years later I've started developing in python. My first project was about
+          Few years later I&apos;ve started developing in python. My first project was about
           writing BE for FSFE (Free software foundation Europe) ldap + openid connect. 
-          And last few year untill now I'm working with large django projects only.
+          And last few year untill now I&apos;m working with large django projects only.
         </Paragraph>
         <Paragraph>
           I used to work with high-level requirements and transform those into exact tasks

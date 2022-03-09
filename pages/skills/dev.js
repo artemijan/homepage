@@ -1,6 +1,5 @@
-import { Container, Badge, List, ListItem } from '@chakra-ui/react'
+import { Container, Badge } from '@chakra-ui/react'
 import { Title, Meta } from '../../components/skills'
-import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
 
@@ -13,7 +12,7 @@ const Skill = () => (
       <Paragraph>
         Any software engineer should know in details how computer performs each instruction
         written by him. If something is unclear or hidden in abstraction from developer 
-        then it may bring some issues later. Tha&apos;s why It's important to understand
+        then it may bring some issues later. Tha&apos;s why It&apos;s important to understand
         technology or language you are writing code in.
       </Paragraph>
       <Meta>FE experience</Meta>
