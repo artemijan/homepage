@@ -28,6 +28,8 @@ export const SkillGridItem = ({ children, id, title, thumbnail }) => (
         <Image
           src={thumbnail}
           alt={title}
+          width={570}
+          height={320}
           className="grid-item-thumbnail"
           placeholder="blur"
         />
