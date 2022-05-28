@@ -9,6 +9,10 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
       <Image
         src={thumbnail}
         alt={title}
+        width={570}
+        height={320}
+        sizes="30vw"
+        layout="responsive"
         className="grid-item-thumbnail"
         placeholder="blur"
         loading="lazy"
@@ -30,6 +34,8 @@ export const SkillGridItem = ({ children, id, title, thumbnail }) => (
           alt={title}
           width={570}
           height={320}
+          sizes="30vw"
+          layout="responsive"
           className="grid-item-thumbnail"
           placeholder="blur"
         />
