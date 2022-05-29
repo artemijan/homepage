@@ -10,27 +10,35 @@ const Skill = () => (
         Software Development <Badge>JS/Python/Shell scripting</Badge>
       </Title>
       <Paragraph>
-        Any software engineer should know in details how computer performs each instruction
-        written by him. If something is unclear or hidden in abstraction from developer 
-        then it may bring some issues later. Tha&apos;s why It&apos;s important to understand
-        technology or language you are writing code in.
+        Any software engineer should know in details how computer performs each
+        instruction written by him. If something is unclear or hidden in
+        abstraction from developer then it may bring some issues later.
+        Tha&apos;s why It&apos;s important to understand technology or language
+        you are writing code in.
       </Paragraph>
       <Meta>FE experience</Meta>
       <Paragraph>
-        I was working on a LMS (learning management system) project for our client in US. We 
-        were writing SPA (single page application) using angular 1. I&apos;m not sure this 
-        framework is relevant novadays, but it&apos;s good experience for FE developer to learn
-        about different approaches used in angular 1 and angular 2.
+        It was my first experience in a big team as a front-end engineer. We
+        were developing LMS (learning management system) for our client in US.
+        The project is pretty complex and contained many components: BE (.NET),
+        FE (angular 1), infrastructure (terraform). I was developing only FE
+        part. While working on this project I have learned many things about
+        angular, HTTP/S, SPA (single page app), REST and so on. This project
+        gave me a good start for improving my tech skills.
       </Paragraph>
       <Paragraph>
-        I don&apos;t have any experience with other than angular frameworks (except of react, 
-        but react is not a framework), but a framework is just a tool for me to create large 
-        and scalable apps, so it&apos;s not an issue to learn something new.
+        Another FE project - Firefox/Chrome extension. It was a long time ago,
+        so I am not sure if this experience is still relevant. Anyways I have
+        such experience, and, probably, it will not be an issue for me to
+        implement some browser extension as well.
+      </Paragraph>
+      <Paragraph>
+        I&apos;m pretty sure that I can learn new JS/typescript frameworks and
+        technologies very fast. Just reading some documentation and following
+        best practices is 90% of success.
       </Paragraph>
       <Meta>BE experience</Meta>
-      <Paragraph>
-        TBD
-      </Paragraph>
+      <Paragraph></Paragraph>
     </Container>
   </Layout>
 )

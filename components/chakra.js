@@ -4,11 +4,9 @@ import {
 } from '@chakra-ui/react'
 import theme from '../lib/theme'
 
-export default function Chakra({ cookies, children }) {
-  const colorModeManager = localStorageManager
-
+export default function Chakra({ children }) {
   return (
-    <ChakraProvider theme={theme} colorModeManager={colorModeManager}>
+    <ChakraProvider theme={theme} colorModeManager={localStorageManager}>
       {children}
     </ChakraProvider>
   )
